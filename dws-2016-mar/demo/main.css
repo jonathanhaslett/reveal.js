@@ -1,0 +1,44 @@
+body{
+  background-color: #222222;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+section{
+  max-width: 800px;
+  margin:auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  color: #f300f3;
+}
+
+
+/*print media query*/
+@media only print{
+  
+  body{
+    background-color: #ffffff;
+    color: #222222;
+  }
+  
+  section{
+    max-width: 90%;
+  }
+
+  img{
+    max-width: 200px;
+    opacity: .75;
+  }
+
+  a[href^="http"]:after{
+    content:" <" attr(href) "> ";
+    font-style: italic;
+  }
+
+  p,li,img,h1,h2,h3,h4,h5,h6,aside,blockquote{page-break-inside:avoid}
+}
