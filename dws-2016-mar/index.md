@@ -104,7 +104,7 @@ a{
     opacity: .75;
   }
 
-  a\[href^="http"\]:after{
+  a[href*="//"]:after{
     content:" <" attr(href) "> ";
     font-style: italic;
   }
