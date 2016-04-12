@@ -12,7 +12,7 @@
 
 ##Thanks To
 
-* **Matt** and **CDU's Innovative Media Production Studio** for organising the use of this room and facilities.
+* [Charles Darwin University](http://cdu.edu.au/) for providing the room and facilities.
 
 
 
