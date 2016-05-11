@@ -28,6 +28,8 @@ Jon is a co-founder of [Dash](https://dash.marketing/), a Darwin based web desig
 
 * [Web Font Loader on **github**](https://github.com/typekit/webfontloader)
 
+* Github [Markdown file](https://github.com/jonathanhaslett/slides/blob/gh-pages/dws-2016-may/index.md) powering these slides
+
 
 ##Web Fonts Today
 
