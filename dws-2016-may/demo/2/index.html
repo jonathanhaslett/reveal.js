@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js wf-loading">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo 2 - WebFontLoader</title>
+  
+  <!-- use modernizr so that we have a robust way for CSS to detect if JavaScript is running -->
+  <script>
+  /*! modernizr 3.3.1 (Custom Build) | MIT *
+   * http://modernizr.com/download/?-setclasses !*/
+  !function(n,e,s){function o(n,e){return typeof n===e}function a(){var n,e,s,a,i,l,r;for(var c in f)if(f.hasOwnProperty(c)){if(n=[],e=f[c],e.name&&(n.push(e.name.toLowerCase()),e.options&&e.options.aliases&&e.options.aliases.length))for(s=0;s<e.options.aliases.length;s++)n.push(e.options.aliases[s].toLowerCase());for(a=o(e.fn,"function")?e.fn():e.fn,i=0;i<n.length;i++)l=n[i],r=l.split("."),1===r.length?Modernizr[r[0]]=a:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=a),t.push((a?"":"no-")+r.join("-"))}}function i(n){var e=r.className,s=Modernizr._config.classPrefix||"";if(c&&(e=e.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");e=e.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(e+=" "+s+n.join(" "+s),c?r.className.baseVal=e:r.className=e)}var t=[],f=[],l={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(n,e){var s=this;setTimeout(function(){e(s[n])},0)},addTest:function(n,e,s){f.push({name:n,fn:e,options:s})},addAsyncTest:function(n){f.push({name:null,fn:n})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr;var r=e.documentElement,c="svg"===r.nodeName.toLowerCase();a(),i(t),delete l.addTest,delete l.addAsyncTest;for(var u=0;u<Modernizr._q.length;u++)Modernizr._q[u]();n.Modernizr=Modernizr}(window,document);
+  </script>
+
+  <!-- using Web Font Loader instead -->
+  <script>
+     WebFontConfig = {
+        typekit: { id: 'dvc5fkn' },
+        google: { families: ['Indie Flower'] },
+        custom: {
+            families: ['chunkfiveroman'],
+            urls: ['fonts.css']
+          },
+        timeout: 10000 // Set the timeout to two seconds
+     };
+
+     (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+     })(document);
+  </script>
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <main>
+    <h1>Example with Web Font Loader [from typekit]</h1>
+    <p>In this example, wer'e loading and styling three different fonts, one each from Typekit, Google Fonts, and this web server which is hosted by Github. [from google fonts]</p>
+    <p>The idea is that you'll use dev tools to inspect your network requests and take a look at how much worse this version is compared to the second example. [from the local server, loaded with @font-face css]</p>
+
+    <h2>Demo Navigation</h2>
+    <ul>
+      <li><a href="../1">Without Web Font Loader</a></li>
+      <li><a href="../2">With Web Font Loader</a></li>
+    </ul>
+  </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo 1 - No WebFontLoader</title>
+  
+  <link rel="stylesheet" href="main.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+  <!-- font hosted on this web server -->
+  <link rel="stylesheet" href="fonts.css">
+
+  <!-- typekit -->
+  <script src="https://use.typekit.net/dvc5fkn.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+<body>
+  <main>
+    <h1>Example without Web Font Loader [from typekit]</h1>
+    <p>In this example, wer'e loading and styling three different fonts, one each from Typekit, Google Fonts, and this web server which is hosted by Github. [from google fonts]</p>
+    <p>The idea is that you'll use dev tools to inspect your network requests and take a look at how much worse this version is compared to the second example. [from the local server, loaded with @font-face css]</p>
+
+    <h2>Demo Navigation</h2>
+    <ul>
+      <li><a href="../1">Without Web Font Loader</a></li>
+      <li><a href="../2">With Web Font Loader</a></li>
+    </ul>
+  </main>
+</body>
+</html>
