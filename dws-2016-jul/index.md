@@ -25,9 +25,9 @@ by [Jon Haslett](https://twitter.com/jonathanhaslett)
 
 *"For many web developers, accessibility is complex and somewhat difficult. The Accessibility Project understands that and we want to help to make web accessibility easier for front end developers to implement."*
 
-* http://a11yproject.com/about.html
-* http://a11yproject.com/resources.
-* http://a11yproject.com/patterns/
+* http://a11yproject.com/about
+* http://a11yproject.com/resources
+* http://a11yproject.com/patterns
 
 
 ## Use these. Seriously. Do it.
