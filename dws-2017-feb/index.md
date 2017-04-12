@@ -1,6 +1,6 @@
-##Darwin Web Standards
+## Darwin Web Standards
 
-###Wed 08/02/2017
+### Wed 08/02/2017
 
 [meetup.com/DarwinWebStandards](http://www.meetup.com/DarwinWebStandards/)
 
@@ -10,18 +10,18 @@
 
 
 
-##Thanks To
+## Thanks To
 
 * [Charles Darwin University](http://cdu.edu.au/) for providing the room and facilities.
 
 
 
-##Browser usage and implications for web design.
+## Browser usage and implications for web design.
 
 by [Jon Haslett](https://twitter.com/jonathanhaslett)
 
 
-##Changes to desktop browser usage
+## Changes to desktop browser usage
 
 11/2015 to 11/2016
 
@@ -56,7 +56,7 @@ Desktop vs Mobile Market Share Worldwide (Jan 2017)
 
 ## What does it mean?
 
-The collapse in marketshare for IE 8/9/10 aggressively moves the web forward as a platform. 
+The collapse in marketshare for IE 8/9/10 aggressively moves the web forward as a platform.
 
 Moving forward, every major desktop, tablet, and mobile browser platform can be considered an auto-updating "evergreen" platform.
 

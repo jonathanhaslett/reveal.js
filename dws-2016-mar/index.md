@@ -1,6 +1,6 @@
-##Darwin Web Standards
+## Darwin Web Standards
 
-###Wed 9/03/2016
+### Wed 9/03/2016
 
 [meetup.com/DarwinWebStandards](http://www.meetup.com/DarwinWebStandards/)
 
@@ -10,7 +10,7 @@ Slides available at [slides.darwinwebstandards.org](http://slides.darwinwebstand
 
 
 
-##Thanks To
+## Thanks To
 
 * **Matt** and **CDU's Innovative Media Production Studio** for organising the use of this room and facilities.
 
@@ -18,7 +18,7 @@ Slides available at [slides.darwinwebstandards.org](http://slides.darwinwebstand
 
 
 
-##CSS media quries for enhancing print
+## CSS media quries for enhancing print
 
 by [Jonathan Haslett](https://twitter.com/jonathanhaslett)
 
@@ -89,12 +89,12 @@ a{
 
 /*print media query*/
 @media only print{
-  
+
   body{
     background-color: #ffffff;
     color: #222222;
   }
-  
+
   section{
     max-width: 90%;
   }

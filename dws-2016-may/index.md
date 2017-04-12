@@ -1,6 +1,6 @@
-##Darwin Web Standards
+## Darwin Web Standards
 
-###Wed 11/05/2016
+### Wed 11/05/2016
 
 [meetup.com/DarwinWebStandards](http://www.meetup.com/DarwinWebStandards/)
 
@@ -10,19 +10,19 @@
 
 
 
-##Thanks To
+## Thanks To
 
 * [Charles Darwin University](http://cdu.edu.au/) for providing the room and facilities.
 
 
 
-##Better Web Font Loading
+## Better Web Font Loading
 
 by [Jonathan Haslett](https://twitter.com/jonathanhaslett)
 
 Jon is a co-founder of [Dash](https://dash.marketing/), a Darwin based web design and digital marketing company. As a web front-end development nerd, Jon regularly gets obsessed with finding new and better ways to solve old problems using the latest tools, processes, and web standards. He also likes to travel and listen to podcasts.
 
-###Additional Resources
+### Additional Resources
 
 * Jon's Demo [Page 1](demo/1) and [Page 2](demo/2)
 
@@ -31,15 +31,15 @@ Jon is a co-founder of [Dash](https://dash.marketing/), a Darwin based web desig
 * Github [Markdown file](https://github.com/jonathanhaslett/slides/blob/gh-pages/dws-2016-may/index.md) powering these slides
 
 
-##Web Fonts Today
+## Web Fonts Today
 
-The ability to load custom web fonts is now a fact of life: 
+The ability to load custom web fonts is now a fact of life:
 * Designers expect it
 * Font foundries embrace it
 * Third party platforms make lisncing and distribution easy
 
 
-##Popular Font Platforms
+## Popular Font Platforms
 
 * [Google Fonts](https://www.google.com/fonts)
 * [Typekit](https://typekit.com/) (by Adobe)
@@ -47,7 +47,7 @@ The ability to load custom web fonts is now a fact of life:
 * [Fontdeck](http://fontdeck.com/)
 
 
-##Problems
+## Problems
 
 * Not all fonts are available from all platforms, it's possible for a website design in incorporate fonts from multiple platforms in a single project.
 
@@ -58,7 +58,7 @@ The ability to load custom web fonts is now a fact of life:
 * The dreaded **Flash of Unstyled Text (FOUT)** where fallback fonts are displayed while the correct font is still downloading and being applied.
 
 
-##A Possible Solution
+## A Possible Solution
 
 [Web Font Loader](https://github.com/typekit/webfontloader) is an open sourced project co-developed by [Google](https://www.google.com/fonts) and Adobe's [Typekit](https://typekit.com/).
 
@@ -67,7 +67,7 @@ It provides a common interface for anyncronous font loading regardless of the so
 In theory it should help mitigate all of the problems identified above regardless of where our fonts come from.
 
 
-##Let's take a look
+## Let's take a look
 Demo time (yay!)
 
 [Page 1](demo/1) and [Page 2](demo/2)
@@ -80,7 +80,7 @@ index.html - without Web Font Loader
 <head>
   <meta charset="UTF-8">
   <title>Demo 1 - No WebFontLoader</title>
-  
+
   <link rel="stylesheet" href="main.css">
 
   <!-- google fonts -->
@@ -118,7 +118,7 @@ index.html - with Web Font Loader and Modernizr
 <head>
   <meta charset="UTF-8">
   <title>Demo 2 - WebFontLoader</title>
-  
+
   <!-- use modernizr so that we have a robust way for CSS to detect if JavaScript is running -->
   <script>
   /*! modernizr 3.3.1 (Custom Build) | MIT *
