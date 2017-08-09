@@ -34,7 +34,7 @@ Now it's baked into the Chrome DevTools workflow and more useful than ever.
 
 ## Paul Irish Explains
 
-[Google I/O 2017 video form 32m 30s](https://youtu.be/PjjlwAvV8Jg?t=32m30s).
+[Google I/O 2017 video from 32m 30s](https://youtu.be/PjjlwAvV8Jg?t=32m30s).
 
 
 ## Four Default Audits
